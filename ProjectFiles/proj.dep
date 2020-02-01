@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>1245815614</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\context.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\proj.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\proj.out</file>
+            <file>$TOOLKIT_DIR$\lib\dl4t_aln.a</file>
+            <file>$PROJ_DIR$\kernel.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\context-demo.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\context-demo.o</file>
+            <file>$PROJ_DIR$\context.s79</file>
+            <file>$PROJ_DIR$\context-demo.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\lib\shs_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\config\generic.icf</file>
+            <file>$TOOLKIT_DIR$\lib\m4t_al.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\proj.out</name>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 16 10 0 14 19 17 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\context.s79</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\context-demo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7 18 1 2 15 13 8 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1 2 4 18 15 7 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
